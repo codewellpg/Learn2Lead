@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary1.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:LCEClassLibrary1.Fakes.ShimExcecise">
+            <summary>Shim type of LCEClassLibrary1.Excecise</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimExcecise.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimExcecise.#ctor(LCEClassLibrary1.Excecise)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimExcecise.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimExcecise.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimExcecise.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimExcecise.ConstructorILCE">
+            <summary>Sets the shim of Excecise.Excecise(ILCE lce)</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimExcecise.PrintNumbersSeries">
+            <summary>Sets the shim of Excecise.PrintNumbersSeries()</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.ShimExcecise.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimExcecise.AllInstances.PrintNumbersSeries">
+            <summary>Sets the shim of Excecise.PrintNumbersSeries()</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.ShimLCE">
+            <summary>Shim type of LCEClassLibrary1.LCE</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimLCE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimLCE.#ctor(LCEClassLibrary1.LCE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimLCE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimLCE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimLCE.Bind(LCEClassLibrary1.ILCE)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimLCE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimLCE.Constructor">
+            <summary>Sets the shim of LCE.LCE()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimLCE.PrintNumbersRangeIDictionaryOfInt32String">
+            <summary>Sets the shim of LCE.PrintNumbers(Range range, IDictionary`2&lt;Int32,String&gt; replaceWith)</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.ShimLCE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimLCE.AllInstances.PrintNumbersRangeIDictionaryOfInt32String">
+            <summary>Sets the shim of LCE.PrintNumbers(Range range, IDictionary`2&lt;Int32,String&gt; replaceWith)</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.ShimRange">
+            <summary>Shim type of LCEClassLibrary1.Range</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimRange.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimRange.#ctor(LCEClassLibrary1.Range)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimRange.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.ShimRange.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.Constructor">
+            <summary>Sets the shim of Range.Range()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.ConstructorInt32Int32">
+            <summary>Sets the shim of Range.Range(Int32 lowerRange, Int32 upperRange)</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.LowerRangeGet">
+            <summary>Sets the shim of Range.get_LowerRange()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.LowerRangeSetInt32">
+            <summary>Sets the shim of Range.set_LowerRange(Int32 value)</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.UpperRangeGet">
+            <summary>Sets the shim of Range.get_UpperRange()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.UpperRangeSetInt32">
+            <summary>Sets the shim of Range.set_UpperRange(Int32 value)</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.ShimRange.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.AllInstances.LowerRangeGet">
+            <summary>Sets the shim of Range.get_LowerRange()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.AllInstances.LowerRangeSetInt32">
+            <summary>Sets the shim of Range.set_LowerRange(Int32 value)</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.AllInstances.UpperRangeGet">
+            <summary>Sets the shim of Range.get_UpperRange()</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.ShimRange.AllInstances.UpperRangeSetInt32">
+            <summary>Sets the shim of Range.set_UpperRange(Int32 value)</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.StubExcecise">
+            <summary>Stub type of LCEClassLibrary1.Excecise</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubExcecise.#ctor(LCEClassLibrary1.ILCE)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubExcecise.InitializeStub">
+            <summary>Initializes a new instance of type StubExcecise</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubExcecise.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubExcecise.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubExcecise.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.StubILCE">
+            <summary>Stub type of LCEClassLibrary1.ILCE</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubILCE.#ctor">
+            <summary>Initializes a new instance of type StubILCE</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubILCE.cl1::LCEClassLibrary1#ILCE#PrintNumbers(LCEClassLibrary1.Range,System.Collections.Generic.IDictionary{System.Int32,System.String})">
+            <summary>Sets the stub of ILCE.PrintNumbers(Range range, IDictionary`2&lt;Int32,String&gt; replaceMatrix)</summary>
+        </member>
+        <member name="F:LCEClassLibrary1.Fakes.StubILCE.PrintNumbersRangeIDictionaryOfInt32String">
+            <summary>Sets the stub of ILCE.PrintNumbers(Range range, IDictionary`2&lt;Int32,String&gt; replaceMatrix)</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.StubLCE">
+            <summary>Stub type of LCEClassLibrary1.LCE</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubLCE.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubLCE.InitializeStub">
+            <summary>Initializes a new instance of type StubLCE</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubLCE.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubLCE.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubLCE.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LCEClassLibrary1.Fakes.StubRange">
+            <summary>Stub type of LCEClassLibrary1.Range</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubRange.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubRange.#ctor(System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LCEClassLibrary1.Fakes.StubRange.InitializeStub">
+            <summary>Initializes a new instance of type StubRange</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubRange.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubRange.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LCEClassLibrary1.Fakes.StubRange.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
