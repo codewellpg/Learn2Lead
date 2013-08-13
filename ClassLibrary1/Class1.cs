@@ -40,8 +40,11 @@ namespace LCEClassLibrary1
             //if no reaplce parameters are passed in, replace with the following. 
             if (replaceWith == null)
             {
-                replaceWith.Add(3, "FIZZ");
-                replaceWith.Add(5, "BUZZ");
+                replaceWith = new Dictionary<int, string>
+                {
+                    {3,"FIZZ"},
+                    {5,"BUZZ"}
+                };
             }
             for (int i = (range.LowerRange < range.UpperRange ? range.LowerRange : range.UpperRange) ; 
                         i <= (range.UpperRange > range.LowerRange ? range.UpperRange : range.LowerRange); i++)
